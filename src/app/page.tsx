@@ -17,7 +17,6 @@ import {
   Shopping,
 } from './comic-section';
 import { useAudio } from 'react-use';
-import Image from 'next/image';
 
 export default function Home() {
   const nextRef = useRef<HTMLElement>(null);
@@ -44,7 +43,7 @@ export default function Home() {
           </button>
         </div>
 
-        <p className='text-3xl'>Bazeado no conto de Luiz Moreira</p>
+        <p className='text-3xl'>Baseado no conto de Luiz Moreira</p>
       </ComicSection>
       <AlarmSection
         ref={nextRef}
