@@ -9,6 +9,11 @@ const porr = localFont({
 export const metadata: Metadata = {
   title: 'Para Matar a Curiosidade',
   description: 'Uma comic',
+  icons: [
+    {
+      url: '/favicon.ico',
+    },
+  ],
 };
 
 const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => (
